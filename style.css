@@ -61,7 +61,8 @@ main {
 }
 
 .item button {
-    width: 1em;
+    width: 2.5em;
+    height: 2.5em;
     background-color: none;
     border: none;
     border-radius: 50%;
