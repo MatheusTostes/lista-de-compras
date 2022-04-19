@@ -10,9 +10,9 @@ const attValue = (event) => {
 
     const totalValue = parseFloat(total.innerText.replace('R$ ', ''))
     if (element.checked) {
-        total.innerText = (itemValue+totalValue).toFixed(2)
+        total.innerText = (itemValue+totalValue).toFixed(2).toString()
     } else {
-        total.innerText = (totalValue-itemValue).toFixed(2)
+        total.innerText = (totalValue-itemValue).toFixed(2).toString()
     }
 }
 
