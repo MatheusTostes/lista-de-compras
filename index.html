@@ -22,7 +22,9 @@
             for (i of items) {
                 let item = `
                 <div class="item">
-                    <input type='checkbox' class='item-input'>
+                    <button class='minus'>-</button>
+                    <p class="item-qtd">0</p>
+                    <button class='plus'>+</button>
                     <p class="item-name">${i.name}</p>
                     <p class="item-price">R$ ${i.price.toFixed(2)}</p>
                 </div>
